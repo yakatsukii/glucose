@@ -43,8 +43,10 @@ const getPatientData = async (patientId) => {
         headers: headers
     })
     const data = await response.json()
-    // const dataPoints = data['data']['connection']['glucoseMeasurement']
-    console.log(data)
+    const glucoseMeasurement = data['data']['connection']['glucoseMeasurement']
+    const graphData = data['data']['graphData']
+    console.log(graphData)
+    console.log(glucoseMeasurement)
 }
 
 const main = async () => {
