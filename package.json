@@ -1,0 +1,19 @@
+{
+  "name": "glucose_mon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.22.5",
+    "@diakem/libre-link-up-api-client": "^0.6.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
+}
